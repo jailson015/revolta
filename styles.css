@@ -1,0 +1,63 @@
+body {
+color:aliceblue;
+background:black;
+margin: 100px;
+font-family: "New Amsterdam", sans-serif;
+margin-bottom: 100px;
+}
+header {
+    border-bottom: solid 2px rgb(220, 217, 223);
+    padding: 25px;
+    font-size: 25px;
+    color: rgb(86, 74, 99);
+}
+
+section {
+
+    background: rgb(0, 0, 0);
+    padding-bottom: 100px;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto{
+    margin-right: 15%;
+}
+
+h1 {
+    font-size: 52px;
+}
+p{
+    font-size: 25px;
+}
+
+
+  
+
+
+
+.videos {
+    display: flex;
+    overflow-x:auto;
+    gap: 30px;
+}
+
+
+.lados{
+    padding-left: 25px;
+    padding-right: 25px;
+    
+}
+
+.videos img {
+opacity: 0.5;
+height: 250px;
+}
+.videos img:hover {
+opacity: 1.0;
+border: 1px solid white;
+}
+.lados h2{
+    color: rgb(29, 112, 151);
+}
